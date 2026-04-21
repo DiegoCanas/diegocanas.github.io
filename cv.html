@@ -13,9 +13,9 @@
     <!-- NAV -->
     <nav class="nav">
         <div class="nav-left">
-            <a href="index.html">Inicio</a>
-            <a href="cv.html">CV</a>
-            <a href="projects.html">Proyectos</a>
+            <a href="index.html" data-i18n="home">Inicio</a>
+            <a href="cv.html" data-i18n="cv">CV</a>
+            <a href="projects.html" data-i18n="projects">Artículos</a>
         </div>
 
         <div class="nav-right">
@@ -26,18 +26,15 @@
 
     <div class="container">
 
-        <h1></h1>
-
-        <!-- ================= TECH STACK GLOBAL ================= -->
+        <!-- ================= TECH STACK ================= -->
         <div class="cv-card">
 
-            <h2>Información Técnica</h2>
+            <h2 data-i18n="tech_info">Información Técnica</h2>
 
             <div class="stack-grid">
 
-                <!-- ARRIBA -->
                 <div class="stack-column">
-                    <h4>CI / CD & Artifact Management</h4>
+                    <h4 data-i18n="ci_cd">CI / CD & Artifact Management</h4>
                     <div class="tags">
                         <span>Jenkins</span>
                         <span>GitLab CI</span>
@@ -47,7 +44,7 @@
                 </div>
 
                 <div class="stack-column">
-                    <h4>Containerization & Orchestration</h4>
+                    <h4 data-i18n="containers">Containerization & Orchestration</h4>
                     <div class="tags">
                         <span>Docker</span>
                         <span>Helm</span>
@@ -56,7 +53,7 @@
                 </div>
 
                 <div class="stack-column">
-                    <h4>Observability</h4>
+                    <h4 data-i18n="observability">Observabilidad</h4>
                     <div class="tags">
                         <span>Prometheus</span>
                         <span>Grafana</span>
@@ -69,7 +66,7 @@
                 </div>
 
                 <div class="stack-column">
-                    <h4>Infrastructure as Code</h4>
+                    <h4 data-i18n="iac">Infrastructure as Code</h4>
                     <div class="tags">
                         <span>Ansible</span>
                         <span>Terraform</span>
@@ -77,7 +74,7 @@
                 </div>
 
                 <div class="stack-column">
-                    <h4>Cloud</h4>
+                    <h4 data-i18n="cloud">Cloud</h4>
                     <div class="tags">
                         <span>AWS</span>
                         <span>GCP</span>
@@ -86,7 +83,7 @@
                 </div>
 
                 <div class="stack-column">
-                    <h4>Lenguajes</h4>
+                    <h4 data-i18n="languages">Lenguajes</h4>
                     <div class="tags">
                         <span>Python</span>
                         <span>Bash</span>
@@ -97,14 +94,14 @@
                 </div>
 
                 <div class="stack-column">
-                    <h4>BBDD</h4>
+                    <h4 data-i18n="databases">BBDD</h4>
                     <div class="tags">
                         <span>MySQL</span>
                     </div>
                 </div>
 
                 <div class="stack-column">
-                    <h4>Lenguas</h4>
+                    <h4 data-i18n="languages_spoken">Idiomas</h4>
                     <div class="tags">
                         <span>English (High)</span>
                         <span>Spanish (Native)</span>
@@ -121,49 +118,43 @@
 
             <!-- NYMIZ -->
             <div class="item">
-
                 <span class="date">Feb 2025 - Abr 2026</span>
 
                 <h3>DevOps Engineer - Nymiz</h3>
 
-                <p class="summary">
-                    Evolución de un entorno DevOps en fase temprana contribuyendo a la mejora de observabilidad,
-                    CI/CD e infraestructura.
-                </p>
+                <p class="summary" data-i18n="nymiz_summary"></p>
 
                 <div class="section">
-                    <h4>Funciones</h4>
+                    <h4 data-i18n="functions"></h4>
                     <ul>
-                        <li>Implementación de OpenTelemetry y exportación de logs, métricas y trazas a GCP</li>
-                        <li>Diseño de sistemas de alarmado ante incidencias críticas</li>
-                        <li>Diseño de estrategias de Disaster Recovery y automatización de backups</li>
-                        <li>Migración a Infrastructure as Code con Terraform, GitLab CI y Ansible</li>
-                        <li>Calidad de código con tests y SonarQube</li>
-                        <li>CD automatizado en on-premise (>1000 usuarios)</li>
-                        <li>Optimización de costes (~20K€/mes)</li>
-                        <li>Integración multi-cloud (GCP + AWS + Azure AKS)</li>
+                        <li data-i18n="nymiz_1"></li>
+                        <li data-i18n="nymiz_2"></li>
+                        <li data-i18n="nymiz_3"></li>
+                        <li data-i18n="nymiz_4"></li>
+                        <li data-i18n="nymiz_5"></li>
+                        <li data-i18n="nymiz_6"></li>
+                        <li data-i18n="nymiz_7"></li>
+                        <li data-i18n="nymiz_8"></li>
                     </ul>
                 </div>
-
             </div>
 
             <!-- MERCADONA -->
             <div class="item">
                 <span class="date">Abr 2024 - Feb 2025</span>
+
                 <h3>DevOps Engineer - Mercadona</h3>
 
-                <p class="summary">
-                    Mantenimiento y automatización de herramientas DevOps críticas para más de 2000 desarrolladores.
-                </p>
+                <p class="summary" data-i18n="mercadona_summary"></p>
 
                 <div class="section">
-                    <h4>Funciones</h4>
+                    <h4 data-i18n="functions"></h4>
                     <ul>
-                        <li>Administración de GitLab, Nexus y Jenkins en Kubernetes</li>
-                        <li>Alta disponibilidad mediante alertas y observabilidad</li>
-                        <li>Disaster Recovery con GitLab Geo</li>
-                        <li>Pipelines CI/CD con Jenkins, Docker y Helm</li>
-                        <li>Feature Flags para despliegues seguros</li>
+                        <li data-i18n="mercadona_1"></li>
+                        <li data-i18n="mercadona_2"></li>
+                        <li data-i18n="mercadona_3"></li>
+                        <li data-i18n="mercadona_4"></li>
+                        <li data-i18n="mercadona_5"></li>
                     </ul>
                 </div>
             </div>
@@ -171,19 +162,18 @@
             <!-- CAPGEMINI -->
             <div class="item">
                 <span class="date">Dic 2023 - Abr 2024</span>
+
                 <h3>DevOps Engineer - Capgemini</h3>
 
-                <p class="summary">
-                    Automatización de procesos internos y proyectos con clientes internacionales.
-                </p>
+                <p class="summary" data-i18n="capgemini_summary"></p>
 
                 <div class="section">
-                    <h4>Funciones</h4>
+                    <h4 data-i18n="functions"></h4>
                     <ul>
-                        <li>CI/CD con Jenkins y GitHub Actions</li>
-                        <li>Uso de Docker, Kubernetes y Helm en AWS y Azure</li>
-                        <li>Administración de Linux</li>
-                        <li>Monitorización con ELK, Prometheus y Grafana</li>
+                        <li data-i18n="capgemini_1"></li>
+                        <li data-i18n="capgemini_2"></li>
+                        <li data-i18n="capgemini_3"></li>
+                        <li data-i18n="capgemini_4"></li>
                     </ul>
                 </div>
             </div>
@@ -191,19 +181,18 @@
             <!-- ITE -->
             <div class="item">
                 <span class="date">May 2022 - Dic 2023</span>
+
                 <h3>DevOps Engineer - ITE</h3>
 
-                <p class="summary">
-                    Inicio en entorno DevOps desde base cero.
-                </p>
+                <p class="summary" data-i18n="ite_summary"></p>
 
                 <div class="section">
-                    <h4>Funciones</h4>
+                    <h4 data-i18n="functions"></h4>
                     <ul>
-                        <li>CI/CD con Jenkins</li>
-                        <li>Stack: Docker, Kubernetes, Helm, Nexus</li>
-                        <li>Monitorización con Prometheus, Grafana y Loki</li>
-                        <li>Automatización con Python y Bash</li>
+                        <li data-i18n="ite_1"></li>
+                        <li data-i18n="ite_2"></li>
+                        <li data-i18n="ite_3"></li>
+                        <li data-i18n="ite_4"></li>
                     </ul>
                 </div>
             </div>
