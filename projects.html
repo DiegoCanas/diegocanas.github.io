@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyectos</title>
+    <title>Articles | Diego Cañas</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
+    <!-- NAV -->
     <nav class="nav">
         <div class="nav-left">
-            <a href="index.html" data-i18n="home">Inicio</a>
-            <a href="cv.html" data-i18n="cv">CV</a>
-            <a href="projects.html" data-i18n="projects">Proyectos</a>
+            <a href="index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="projects.html">Articles</a>
         </div>
 
         <div class="nav-right">
@@ -25,31 +26,52 @@
 
     <div class="container">
 
-        <h1 data-i18n="title_projects">Proyectos</h1>
+        <!-- HEADER -->
+        <section class="hero">
 
-        <!-- FILTROS -->
+            <p class="kicker">Engineering Articles</p>
+
+            <h1 class="headline">
+                Deep dives into DevOps, cloud architecture and production systems.
+            </h1>
+
+            <p class="subheadline">
+                Real engineering problems, solutions and architectural decisions from production environments.
+            </p>
+
+        </section>
+
+        <!-- FILTERS -->
         <div class="filters">
-            <button onclick="filterProjects('all')">All</button>
-            <button onclick="filterProjects('kubernetes')">Kubernetes</button>
-            <button onclick="filterProjects('ci')">CI/CD</button>
-            <button onclick="filterProjects('cloud')">Cloud</button>
+            <button onclick="filterArticles('all')">All</button>
+            <button onclick="filterArticles('kubernetes')">Kubernetes</button>
+            <button onclick="filterArticles('dr')">Disaster Recovery</button>
+            <button onclick="filterArticles('cloud')">Cloud</button>
+            <button onclick="filterArticles('ci')">CI/CD</button>
         </div>
 
-        <!-- PROYECTOS -->
-        <div class="grid">
+        <!-- ARTICLES -->
+        <div class="article-grid">
 
-            <div class="card project kubernetes ci">
-                <h3>CI/CD Kubernetes Pipeline</h3>
-                <p>Jenkins + ArgoCD + GKE</p>
-                <span class="tags">Kubernetes / CI-CD</span>
-                <a href="https://github.com/" target="_blank">GitHub</a>
+            <div class="article kubernetes ci">
+                <h2>CI/CD Platform on Kubernetes</h2>
+                <p class="meta">Kubernetes · CI/CD · Jenkins · ArgoCD</p>
+                <p class="excerpt">Design and implementation of a unified deployment platform.</p>
+                <a href="articles/ci-cd-kubernetes.html" class="read-more">Read more →</a>
             </div>
 
-            <div class="card project cloud">
-                <h3>Infraestructura en GCP</h3>
-                <p>Terraform + GCP + Networking</p>
-                <span class="tags">Cloud / IaC</span>
-                <a href="https://github.com/" target="_blank">GitHub</a>
+            <div class="article dr cloud">
+                <h2>Disaster Recovery Strategy</h2>
+                <p class="meta">GCP · AWS · HA · Backup</p>
+                <p class="excerpt">Design of a production-ready DR strategy with automation.</p>
+                <a href="articles/dr-strategy.html" class="read-more">Read more →</a>
+            </div>
+
+            <div class="article cloud">
+                <h2>Docker Image Optimization</h2>
+                <p class="meta">Docker · CI/CD · Optimization</p>
+                <p class="excerpt">Reducing image size and improving CI/CD performance.</p>
+                <a href="articles/docker-optimization.html" class="read-more">Read more →</a>
             </div>
 
         </div>
@@ -57,7 +79,6 @@
     </div>
 
     <script src="assets/js/i18n.js"></script>
-    <script src="assets/js/projects.js"></script>
     <script src="assets/js/theme.js"></script>
 
 </body>

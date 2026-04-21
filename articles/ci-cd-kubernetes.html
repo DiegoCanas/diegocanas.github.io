@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article | Diego Cañas</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class="nav">
+        <div class="nav-left">
+            <a href="../index.html" data-i18n="home">Inicio</a>
+            <a href="../cv.html" data-i18n="cv">CV</a>
+            <a href="../projects.html" data-i18n="projects">Articulos</a>
+        </div>
+
+        <div class="nav-right">
+            <button onclick="switchLang()" class="lang-btn">ES / EN</button>
+            <button onclick="toggleTheme()" class="lang-btn">🌓</button>
+        </div>
+    </nav>
+
+    <button class="sidebar-toggle-inline" onclick="toggleSidebar()">
+        ☰
+    </button>
+    <div class="doc-layout">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="sidebar-header">
+                <div class="sidebar-title">Engineering Blog</div>
+
+            </div>
+
+            <a href="../projects.html">← All articles</a>
+
+            <div class="sidebar-section">
+                <p>Articles</p>
+
+                <a href="docker-optimization.html">Docker Optimization</a>
+                <a href="dr-strategy.html">Disaster Recovery</a>
+                <a href="ci-cd-kubernetes.html">CI/CD Platform</a>
+
+            </div>
+
+        </aside>
+
+        <!-- CONTENT -->
+        <main class="doc-content">
+
+            <article class="article-full">
+
+                <p class="kicker">Engineering Article</p>
+
+                <h1>Title goes here</h1>
+
+                <!-- TOC -->
+                <div class="toc">
+                    <strong>Contents</strong>
+                    <a href="#context">Context</a>
+                    <a href="#problem">Problem</a>
+                    <a href="#implementation">Implementation</a>
+                    <a href="#evidence">Evidence</a>
+                    <a href="#result">Result</a>
+                </div>
+
+                <section id="context">
+                    <h2>Context</h2>
+                    <p>...</p>
+                </section>
+
+                <section id="problem">
+                    <h2>Problem</h2>
+                    <p>...</p>
+                </section>
+
+                <section id="implementation">
+                    <h2>Implementation</h2>
+                    <p>...</p>
+                </section>
+
+                <section id="evidence">
+                    <h2>Evidence</h2>
+                    <p>...</p>
+                </section>
+
+                <section id="result">
+                    <h2>Result</h2>
+                    <p>...</p>
+                </section>
+
+            </article>
+
+        </main>
+
+    </div>
+
+    <script src="../assets/js/theme.js"></script>
+    <script src="../assets/js/sidebar.js"></script>
+
+</body>
+
+<script src="../assets/js/sidebar.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/theme.js"></script>
+
+</html>

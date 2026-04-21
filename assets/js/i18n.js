@@ -3,12 +3,14 @@ const translations = {
         home: "Inicio",
         cv: "CV",
         projects: "Proyectos",
+        articles: "Artículos",
 
         role: "Ingeniero DevOps",
         intro: "Construyo infraestructuras escalables y automatizadas",
 
         title_cv: "CV",
         title_projects: "Proyectos",
+        title_articles: "Artículos",
 
         experience: "Experiencia",
         skills: "Skills",
@@ -20,12 +22,14 @@ const translations = {
         home: "Home",
         cv: "Resume",
         projects: "Projects",
+        articles: "Articles",
 
         role: "DevOps Engineer",
         intro: "I build scalable and automated infrastructures",
 
         title_cv: "Resume",
         title_projects: "Projects",
+        title_articles: "Articles",
 
         experience: "Experience",
         skills: "Skills",
@@ -56,9 +60,6 @@ function updateUI() {
         }
     });
 
-    // opcional: actualizar html lang
+    // actualizar idioma HTML (SEO + accesibilidad)
     document.documentElement.lang = lang;
 }
-
-// init
-document.addEventListener("DOMContentLoaded", updateUI);
