@@ -1,11 +1,11 @@
 const translations = {
     es: {
-        // NAV
+        // ================= NAV =================
         home: "Inicio",
         cv: "CV",
         projects: "Artículos",
 
-        // HOME
+        // ================= HOME =================
         kicker: "DevOps Engineer · Cloud · Platform Engineering",
         headline: "Construyo infraestructuras escalables y sistemas de automatización.",
         subheadline: "Ingeniero DevOps enfocado en Kubernetes, CI/CD, cloud y automatización de infraestructura. Diseño sistemas escalables, auto-recuperables y optimizados en coste.",
@@ -20,7 +20,7 @@ const translations = {
 
         trust_text: "Experiencia en entornos enterprise con más de 1000 usuarios, arquitecturas multi-cloud y sistemas críticos en producción.",
 
-        // CV
+        // ================= CV =================
         tech_info: "Información Técnica",
         ci_cd: "CI / CD & Artifact Management",
         containers: "Containerización y Orquestación",
@@ -33,43 +33,44 @@ const translations = {
 
         functions: "Funciones",
 
-        nymiz_summary: "Evolución de un entorno DevOps en fase temprana contribuyendo a la mejora de observabilidad, CI/CD e infraestructura.",
-        mercadona_summary: "Mantenimiento y automatización de herramientas DevOps críticas para más de 2000 desarrolladores.",
-        capgemini_summary: "Automatización de procesos internos y proyectos con clientes internacionales.",
-        ite_summary: "Inicio en entorno DevOps desde base cero.",
-        nymiz_1: "Implementación de OpenTelemetry y exportación de logs, métricas y trazas a GCP",
-        nymiz_2: "Diseño de sistemas de alarmado ante incidencias críticas",
-        nymiz_3: "Disaster Recovery y automatización de backups",
-        nymiz_4: "Infrastructure as Code con Terraform, GitLab CI y Ansible",
-        nymiz_5: "Calidad de código con tests y SonarQube",
-        nymiz_6: "CD automatizado en on-premise (>1000 usuarios)",
-        nymiz_7: "Optimización de costes (~20K€/mes)",
-        nymiz_8: "Integración multi-cloud (GCP + AWS + Azure AKS)",
+        nymiz_summary: "Transición dese un entorno DevOps en fase temprana contribuyento a la mejora de la monitorización, la entrega y el despliegue continuos y la infrastructura.",
 
-        mercadona_1: "GitLab, Nexus y Jenkins en Kubernetes",
-        mercadona_2: "Alta disponibilidad mediante observabilidad",
-        mercadona_3: "Disaster Recovery con GitLab Geo",
-        mercadona_4: "CI/CD con Jenkins, Docker y Helm",
-        mercadona_5: "Feature Flags para despliegues seguros",
+        nymiz_1: "Implementación de OpenTelemetry y exportación de los logs (Promtail), métricas (Prometheus) y trazas a GCP.",
+        nymiz_2: "Desarrollo de lógica e implementación del alarmado frente a incidencias críticas.",
+        nymiz_3: "Diseño e implementación de estrategias de recuperación ante desastres (DR), incluyendo monitorización con alertas y automatización de backups de bases de datos.",
+        nymiz_4: "Responsable de transicionar la creación manual de la infrastructura a la creación y configuración automática de la misma utilizando Terraform, Gitlab CI y Ansible.",
+        nymiz_5: "Agregar calidad en el código a partir de la estandarización de pruebas en el CI mediante la ejecución de test y la medición de la calidad de código lo largo del ciclo de vida del código usando herramientas como SonarQube.",
+        nymiz_6: "Diseño e implementación de CD automatizadas para despliegues continuos a entornos preproductivos y productivos on-premise que daban servicio a más de 1000 usuarios.",
+        nymiz_7: "Implementación de procesos que premiten el ahorro de 20k€ mensuales con estrategias gestión de VM y HA en base a schedules y alertas personalizadas adaptadas al caso de uso del negocio.",
+        nymiz_8: "Uso de GCP como proveedor principal, integrando servicios de AWS (SQS, SNS, Route53, Textract...) y orquestación de contenedores en Kubernetes sobre Microsoft Azure (AKS).",
+        nymiz_9: "Gestión y ejecución de despliegues de la plataforma en entornos de clientes tanto españoles como internacionales.",
 
-        capgemini_1: "CI/CD con Jenkins y GitHub Actions",
-        capgemini_2: "Docker, Kubernetes y Helm en AWS y Azure",
-        capgemini_3: "Administración de Linux",
-        capgemini_4: "Monitorización con ELK, Prometheus y Grafana",
+        mercadona_summary: "Mantenimiento de diferentes herramientas devops y automatización de procesos internos que daban servicio a más de 2000 desarrolladores.",
+        mercadona_1: "Mantenimiento, gestion y soporte de Gitlab, Nexus y Jenkins desplegados en un cluster de kubernetes de GCP y on-premise asegurando el servicio continuo a 2000 desarrolladores.",
+        mercadona_2: "Implementación de triggers de alertado para avisos críticos asegurando una alta disponibilidad.",
+        mercadona_3: "Implementación de un DR para Gitlab mediante la herramienta GEO.",
+        mercadona_4: "Creación y mantenimiento de pipelines de CI/CD con Jenkins, automatizando los despliegues y otros procesos. Uso de herramientas como Helm para los despliegues y Docker para la contenerización.",
+        mercadona_5: "Implementación y seguimiento de Feature Flags para la adición o eliminación de funcionalidades sin afectar a la herramienta objetivo.",
 
-        ite_1: "CI/CD con Jenkins",
-        ite_2: "Docker, Kubernetes, Helm, Nexus",
-        ite_3: "Monitorización con Prometheus, Grafana y Loki",
-        ite_4: "Automatización con Python y Bash",
+        capgemini_summary: "Participación en proyectos tanto propios como con clientes Holandeses para la automatización de procesos internos.",
+        capgemini_1: "Desarrollo de pipelines de CI/CD con Jenkins y GitHub actions usando herramientas como Docker, Helm y Kubernetes.",
+        capgemini_2: "Uso de Azure y AWS como proveedores en la nube y herramientas de monitorización como ELK, Prometheus y Grafana.",
+        capgemini_3: "Administración de sistemas Linux.",
+
+        ite_summary: "Fase incial partiendo de una base sin un entorno DevOps.",
+        ite_1: "Desarrollo de pipelines de CI/CD con Jenkins.",
+        ite_2: "Stack base de Docker, Helm, Kubernetes y Nexus como repositorio de artefactos.",
+        ite_3: "Monitorización con Loki, Promtail, Prometheus y Grafana.",
+        ite_4: "Trabajo con el lenguaje Python y bash en el desarrollo de scripts de automatización."
     },
 
     en: {
-        // NAV
+        // ================= NAV =================
         home: "Home",
         cv: "Resume",
         projects: "Articles",
 
-        // HOME
+        // ================= HOME =================
         kicker: "DevOps Engineer · Cloud · Platform Engineering",
         headline: "I build scalable infrastructure and automation systems.",
         subheadline: "DevOps Engineer focused on Kubernetes, CI/CD, cloud platforms and infrastructure automation. I design systems that scale, self-heal and reduce operational cost.",
@@ -84,47 +85,42 @@ const translations = {
 
         trust_text: "Experience in enterprise environments with 1000+ users, multi-cloud architectures and production-critical systems.",
 
-        // CV
-        tech_info: "Technical Information",
-        ci_cd: "CI / CD & Artifact Management",
-        containers: "Containerization & Orchestration",
-        observability: "Observability",
-        iac: "Infrastructure as Code",
-        cloud: "Cloud",
-        languages: "Programming Languages",
-        databases: "Databases",
-        languages_spoken: "Languages",
+        // NYMIZ
+        nymiz_summary: "Transition from an early-stage DevOps environment contributing to improvements in monitoring, continuous delivery and deployment, and infrastructure.",
 
-        functions: "Responsibilities",
+        nymiz_1: "Implementation of OpenTelemetry and export of logs (Promtail), metrics (Prometheus) and traces to GCP.",
+        nymiz_2: "Development of logic and implementation of alerting systems for critical incidents.",
+        nymiz_3: "Design and implementation of Disaster Recovery (DR) strategies, including monitoring with alerts and automated database backups.",
+        nymiz_4: "Responsible for transitioning from manual infrastructure provisioning to automated creation and configuration using Terraform, GitLab CI and Ansible.",
+        nymiz_5: "Improvement of code quality through standardized CI testing and code quality measurement across the software lifecycle using tools such as SonarQube.",
+        nymiz_6: "Design and implementation of automated CD pipelines for continuous deployments to pre-production and production on-premise environments serving more than 1000 users.",
+        nymiz_7: "Implementation of processes that enabled savings of approximately €20K per month through VM management strategies and high availability based on schedules and custom alerts aligned with business needs.",
+        nymiz_8: "Use of GCP as the main cloud provider, integrating AWS services (SQS, SNS, Route53, Textract...) and container orchestration in Kubernetes on Microsoft Azure (AKS).",
+        nymiz_9: "Management and execution of platform deployments in both Spanish and international client environments.",
 
-        nymiz_summary: "Evolution of an early-stage DevOps environment improving observability, CI/CD and infrastructure.",
-        mercadona_summary: "Maintenance and automation of critical DevOps tools serving 2000+ developers.",
-        capgemini_summary: "Automation of internal processes and collaboration with international clients.",
-        ite_summary: "Started in a DevOps environment from scratch.",
-        nymiz_1: "Implementation of OpenTelemetry and export of logs, metrics and traces to GCP",
-        nymiz_2: "Design of alerting systems for critical incidents",
-        nymiz_3: "Disaster Recovery strategies and automated backups",
-        nymiz_4: "Infrastructure as Code with Terraform, GitLab CI and Ansible",
-        nymiz_5: "Code quality with tests and SonarQube",
-        nymiz_6: "Automated CD for on-premise environments (>1000 users)",
-        nymiz_7: "Cost optimization (~€20K/month)",
-        nymiz_8: "Multi-cloud integration (GCP + AWS + Azure AKS)",
+        // MERCADONA
+        mercadona_summary: "Maintenance of multiple DevOps tools and automation of internal processes serving more than 2000 developers.",
 
-        mercadona_1: "GitLab, Nexus and Jenkins on Kubernetes",
-        mercadona_2: "High availability through observability",
-        mercadona_3: "Disaster Recovery with GitLab Geo",
-        mercadona_4: "CI/CD with Jenkins, Docker and Helm",
-        mercadona_5: "Feature Flags for safe deployments",
+        mercadona_1: "Maintenance, management and support of GitLab, Nexus and Jenkins deployed on Kubernetes clusters in GCP and on-premise, ensuring continuous service for 2000 developers.",
+        mercadona_2: "Implementation of alert triggers for critical incidents ensuring high availability.",
+        mercadona_3: "Implementation of Disaster Recovery for GitLab using GitLab Geo.",
+        mercadona_4: "Creation and maintenance of CI/CD pipelines with Jenkins, automating deployments and other processes using tools such as Helm and Docker.",
+        mercadona_5: "Implementation and management of Feature Flags to enable or disable functionality without impacting target systems, including both web and internal tools.",
 
-        capgemini_1: "CI/CD with Jenkins and GitHub Actions",
-        capgemini_2: "Docker, Kubernetes and Helm on AWS and Azure",
-        capgemini_3: "Linux administration",
-        capgemini_4: "Monitoring with ELK, Prometheus and Grafana",
+        // CAPGEMINI
+        capgemini_summary: "Participation in internal and client projects (Dutch clients) focused on process automation.",
 
-        ite_1: "CI/CD with Jenkins",
-        ite_2: "Docker, Kubernetes, Helm, Nexus stack",
-        ite_3: "Monitoring with Prometheus, Grafana and Loki",
-        ite_4: "Automation with Python and Bash",
+        capgemini_1: "Development of CI/CD pipelines using Jenkins and GitHub Actions, leveraging tools such as Docker, Helm and Kubernetes, with Azure and AWS as cloud providers.",
+        capgemini_2: "Use of monitoring tools such as ELK, Prometheus and Grafana.",
+        capgemini_3: "Linux systems administration.",
+
+        // ITE
+        ite_summary: "Initial phase starting from a non-DevOps environment, building the foundations.",
+
+        ite_1: "Development of CI/CD pipelines using Jenkins.",
+        ite_2: "Core stack including Docker, Helm, Kubernetes and Nexus as artifact repository.",
+        ite_3: "Monitoring with Loki, Promtail, Prometheus and Grafana.",
+        ite_4: "Automation scripting using Python and Bash.",
     }
 };
 
@@ -153,5 +149,4 @@ function updateUI() {
     document.documentElement.lang = lang;
 }
 
-// INIT
 updateUI();

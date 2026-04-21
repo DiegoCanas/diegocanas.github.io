@@ -10,7 +10,6 @@
 
 <body>
 
-    <!-- NAV -->
     <nav class="nav">
         <div class="nav-left">
             <a href="index.html" data-i18n="home">Inicio</a>
@@ -26,100 +25,65 @@
 
     <div class="container">
 
-        <!-- ================= TECH STACK ================= -->
+        <!-- STACK -->
         <div class="cv-card">
-
-            <h2 data-i18n="tech_info">Información Técnica</h2>
+            <h2 data-i18n="tech_info"></h2>
 
             <div class="stack-grid">
+                <div class="stack-column">
+                    <h4 data-i18n="ci_cd"></h4>
+                    <div class="tags"><span>Jenkins</span><span>GitLab
+                            CI</span><span>Nexus</span><span>Artifactory</span></div>
+                </div>
 
                 <div class="stack-column">
-                    <h4 data-i18n="ci_cd">CI / CD & Artifact Management</h4>
+                    <h4 data-i18n="containers"></h4>
+                    <div class="tags"><span>Docker</span><span>Helm</span><span>Kubernetes</span></div>
+                </div>
+
+                <div class="stack-column">
+                    <h4 data-i18n="observability"></h4>
                     <div class="tags">
-                        <span>Jenkins</span>
-                        <span>GitLab CI</span>
-                        <span>Nexus</span>
-                        <span>Artifactory</span>
+                        <span>Prometheus</span><span>Grafana</span><span>Elasticsearch</span>
+                        <span>Kibana</span><span>OpenTelemetry</span><span>Loki</span><span>Promtail</span>
                     </div>
                 </div>
 
                 <div class="stack-column">
-                    <h4 data-i18n="containers">Containerization & Orchestration</h4>
-                    <div class="tags">
-                        <span>Docker</span>
-                        <span>Helm</span>
-                        <span>Kubernetes</span>
+                    <h4 data-i18n="iac"></h4>
+                    <div class="tags"><span>Ansible</span><span>Terraform</span></div>
+                </div>
+
+                <div class="stack-column">
+                    <h4 data-i18n="cloud"></h4>
+                    <div class="tags"><span>AWS</span><span>GCP</span><span>Azure</span></div>
+                </div>
+
+                <div class="stack-column">
+                    <h4 data-i18n="languages"></h4>
+                    <div class="tags"><span>Python</span><span>Bash</span><span>Go</span><span>C</span><span>C++</span>
                     </div>
                 </div>
 
                 <div class="stack-column">
-                    <h4 data-i18n="observability">Observabilidad</h4>
-                    <div class="tags">
-                        <span>Prometheus</span>
-                        <span>Grafana</span>
-                        <span>Elasticsearch</span>
-                        <span>Kibana</span>
-                        <span>OpenTelemetry</span>
-                        <span>Loki</span>
-                        <span>Promtail</span>
-                    </div>
+                    <h4 data-i18n="databases"></h4>
+                    <div class="tags"><span>MySQL</span></div>
                 </div>
 
                 <div class="stack-column">
-                    <h4 data-i18n="iac">Infrastructure as Code</h4>
-                    <div class="tags">
-                        <span>Ansible</span>
-                        <span>Terraform</span>
+                    <h4 data-i18n="languages_spoken"></h4>
+                    <div class="tags"><span>English (High)</span><span>Spanish (Native)</span><span>French (Low)</span>
                     </div>
                 </div>
-
-                <div class="stack-column">
-                    <h4 data-i18n="cloud">Cloud</h4>
-                    <div class="tags">
-                        <span>AWS</span>
-                        <span>GCP</span>
-                        <span>Azure</span>
-                    </div>
-                </div>
-
-                <div class="stack-column">
-                    <h4 data-i18n="languages">Lenguajes</h4>
-                    <div class="tags">
-                        <span>Python</span>
-                        <span>Bash</span>
-                        <span>Go</span>
-                        <span>C</span>
-                        <span>C++</span>
-                    </div>
-                </div>
-
-                <div class="stack-column">
-                    <h4 data-i18n="databases">BBDD</h4>
-                    <div class="tags">
-                        <span>MySQL</span>
-                    </div>
-                </div>
-
-                <div class="stack-column">
-                    <h4 data-i18n="languages_spoken">Idiomas</h4>
-                    <div class="tags">
-                        <span>English (High)</span>
-                        <span>Spanish (Native)</span>
-                        <span>French (Low)</span>
-                    </div>
-                </div>
-
             </div>
-
         </div>
 
-        <!-- ================= TIMELINE ================= -->
+        <!-- TIMELINE -->
         <div class="timeline">
 
             <!-- NYMIZ -->
             <div class="item">
                 <span class="date">Feb 2025 - Abr 2026</span>
-
                 <h3>DevOps Engineer - Nymiz</h3>
 
                 <p class="summary" data-i18n="nymiz_summary"></p>
@@ -135,6 +99,7 @@
                         <li data-i18n="nymiz_6"></li>
                         <li data-i18n="nymiz_7"></li>
                         <li data-i18n="nymiz_8"></li>
+                        <li data-i18n="nymiz_9"></li>
                     </ul>
                 </div>
             </div>
@@ -142,7 +107,6 @@
             <!-- MERCADONA -->
             <div class="item">
                 <span class="date">Abr 2024 - Feb 2025</span>
-
                 <h3>DevOps Engineer - Mercadona</h3>
 
                 <p class="summary" data-i18n="mercadona_summary"></p>
@@ -162,7 +126,6 @@
             <!-- CAPGEMINI -->
             <div class="item">
                 <span class="date">Dic 2023 - Abr 2024</span>
-
                 <h3>DevOps Engineer - Capgemini</h3>
 
                 <p class="summary" data-i18n="capgemini_summary"></p>
@@ -173,7 +136,6 @@
                         <li data-i18n="capgemini_1"></li>
                         <li data-i18n="capgemini_2"></li>
                         <li data-i18n="capgemini_3"></li>
-                        <li data-i18n="capgemini_4"></li>
                     </ul>
                 </div>
             </div>
@@ -181,7 +143,6 @@
             <!-- ITE -->
             <div class="item">
                 <span class="date">May 2022 - Dic 2023</span>
-
                 <h3>DevOps Engineer - ITE</h3>
 
                 <p class="summary" data-i18n="ite_summary"></p>
