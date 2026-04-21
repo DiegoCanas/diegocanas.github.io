@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | Diego Cañas</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+        <div class="nav-left">
+            <a href="index.html" data-i18n="home">Inicio</a>
+            <a href="cv.html" data-i18n="cv">CV</a>
+            <a href="projects.html" data-i18n="projects">Proyectos</a>
+        </div>
+
+        <div class="nav-right">
+            <button onclick="switchLang()" class="lang-btn">ES / EN</button>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <h1>CV</h1>
+
+        <div class="timeline">
+
+            <!-- NYMIZ -->
+            <div class="item">
+
+                <span class="date">Feb 2025 - Abr 2026</span>
+
+                <h3>DevOps Engineer - Nymiz</h3>
+
+                <p class="summary">
+                    Evolución de un entorno DevOps en fase temprana contribuyendo a la mejora de observabilidad,
+                    CI/CD e infraestructura.
+                </p>
+
+                <div class="section">
+                    <h4>Funciones</h4>
+                    <ul>
+                        <li>Implementación de OpenTelemetry y exportación de logs, métricas y trazas a GCP</li>
+                        <li>Diseño de sistemas de alarmado ante incidencias críticas</li>
+                        <li>Diseño de estrategias de Disaster Recovery y automatización de backups</li>
+                        <li>Migración de infraestructura manual a Infrastructure as Code con Terraform, GitLab CI y
+                            Ansible</li>
+                        <li>Implementación de calidad de código en CI con tests y SonarQube</li>
+                        <li>Diseño de CD automatizado para entornos on-premise (>1000 usuarios)</li>
+                        <li>Optimización de costes (~20K€/mes) mediante gestión de VMs y HA</li>
+                        <li>Integración multi-cloud (GCP + AWS + Azure AKS)</li>
+                    </ul>
+                </div>
+
+                <div class="stack">
+                    <h4>Stack</h4>
+                    <p>
+                        GCP · AWS · Azure · Kubernetes · Terraform · Ansible · GitLab CI · Prometheus · Grafana ·
+                        OpenTelemetry · SonarQube
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- MERCADONA -->
+            <div class="item">
+
+                <span class="date">Abr 2024 - Feb 2025</span>
+
+                <h3>DevOps Engineer - Mercadona</h3>
+
+                <p class="summary">
+                    Mantenimiento y automatización de herramientas DevOps críticas dando servicio a más de 2000
+                    desarrolladores.
+                </p>
+
+                <div class="section">
+                    <h4>Funciones</h4>
+                    <ul>
+                        <li>Administración de GitLab, Nexus y Jenkins en Kubernetes (GCP + on-premise)</li>
+                        <li>Implementación de alertas para alta disponibilidad</li>
+                        <li>Disaster Recovery de GitLab mediante GitLab Geo</li>
+                        <li>Diseño de pipelines CI/CD con Jenkins, Docker y Helm</li>
+                        <li>Implementación de Feature Flags para despliegues seguros</li>
+                    </ul>
+                </div>
+
+                <div class="stack">
+                    <h4>Stack</h4>
+                    <p>Kubernetes · GCP · Jenkins · GitLab · Nexus · Docker · Helm · Prometheus · Grafana</p>
+                </div>
+
+            </div>
+
+            <!-- CAPGEMINI -->
+            <div class="item">
+
+                <span class="date">Dic 2023 - Abr 2024</span>
+
+                <h3>DevOps Engineer - Capgemini</h3>
+
+                <p class="summary">
+                    Automatización de procesos internos y colaboración con clientes internacionales en entornos cloud.
+                </p>
+
+                <div class="section">
+                    <h4>Funciones</h4>
+                    <ul>
+                        <li>Desarrollo de pipelines CI/CD con Jenkins y GitHub Actions</li>
+                        <li>Uso de Docker, Kubernetes y Helm en AWS y Azure</li>
+                        <li>Administración de sistemas Linux</li>
+                        <li>Monitorización con ELK, Prometheus y Grafana</li>
+                    </ul>
+                </div>
+
+                <div class="stack">
+                    <h4>Stack</h4>
+                    <p>AWS · Azure · Jenkins · GitHub Actions · Docker · Kubernetes · ELK · Prometheus · Grafana · Linux
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- ITE -->
+            <div class="item">
+
+                <span class="date">May 2022 - Dic 2023</span>
+
+                <h3>DevOps Engineer - ITE</h3>
+
+                <p class="summary">
+                    Inicio en entorno DevOps desde base cero desarrollando automatización, CI/CD y administración de
+                    infraestructura.
+                </p>
+
+                <div class="section">
+                    <h4>Funciones</h4>
+                    <ul>
+                        <li>Desarrollo de pipelines CI/CD con Jenkins</li>
+                        <li>Uso de Docker, Kubernetes, Helm y Nexus</li>
+                        <li>Monitorización con Prometheus, Grafana y Loki</li>
+                        <li>Automatización con Python y Bash</li>
+                    </ul>
+                </div>
+
+                <div class="stack">
+                    <h4>Stack</h4>
+                    <p>Jenkins · Docker · Kubernetes · Helm · Nexus · Prometheus · Grafana · Loki · Python · Bash</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="assets/js/i18n.js"></script>
+
+</body>
+
+</html>

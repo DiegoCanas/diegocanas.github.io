@@ -1,11 +1,72 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Bienvenido a mi página</title>
-</head>
-<body>
-  <h1>Hola, soy Diego</h1>
-  <p>Mi sitio personal con GitHub Pages.</p>
-</body>
-</html>
+<html lang="es">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diego Cañas | DevOps Engineer</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="nav">
+    <div class="nav-left">
+      <a href="index.html">Inicio</a>
+      <a href="cv.html">CV</a>
+      <a href="projects.html">Proyectos</a>
+    </div>
+
+    <div class="nav-right">
+      <button onclick="switchLang()" class="lang-btn">ES / EN</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <div class="container">
+
+    <section class="hero">
+
+      <h1>Diego Cañas</h1>
+
+      <p class="subtitle" data-i18n="role">
+        DevOps Engineer
+      </p>
+
+      <p class="description" data-i18n="intro">
+        Construyo infraestructuras escalables y automatizadas
+      </p>
+
+      <div class="cta">
+        <a href="projects.html" data-i18n="projects">Ver Proyectos</a>
+        <a href="cv.html" data-i18n="cv">Ver CV</a>
+      </div>
+
+    </section>
+
+    <section class="grid">
+
+      <div class="card">
+        <h3>Cloud</h3>
+        <p>AWS / GCP / Kubernetes</p>
+      </div>
+
+      <div class="card">
+        <h3>CI/CD</h3>
+        <p>Jenkins / ArgoCD / GitHub Actions</p>
+      </div>
+
+      <div class="card">
+        <h3>IaC</h3>
+        <p>Terraform / Helm</p>
+      </div>
+
+    </section>
+
+  </div>
+
+  <script src="assets/js/i18n.js"></script>
+</body>
+
+</html>

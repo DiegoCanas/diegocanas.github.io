@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+        <div class="nav-left">
+            <a href="index.html" data-i18n="home">Inicio</a>
+            <a href="cv.html" data-i18n="cv">CV</a>
+            <a href="projects.html" data-i18n="projects">Proyectos</a>
+        </div>
+
+        <div class="nav-right">
+            <button onclick="switchLang()" class="lang-btn">ES / EN</button>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <h1 data-i18n="title_projects">Proyectos</h1>
+
+        <!-- FILTROS -->
+        <div class="filters">
+            <button onclick="filterProjects('all')">All</button>
+            <button onclick="filterProjects('kubernetes')">Kubernetes</button>
+            <button onclick="filterProjects('ci')">CI/CD</button>
+            <button onclick="filterProjects('cloud')">Cloud</button>
+        </div>
+
+        <!-- PROYECTOS -->
+        <div class="grid">
+
+            <div class="card project kubernetes ci">
+                <h3>CI/CD Kubernetes Pipeline</h3>
+                <p>Jenkins + ArgoCD + GKE</p>
+                <span class="tags">Kubernetes / CI-CD</span>
+                <a href="https://github.com/" target="_blank">GitHub</a>
+            </div>
+
+            <div class="card project cloud">
+                <h3>Infraestructura en GCP</h3>
+                <p>Terraform + GCP + Networking</p>
+                <span class="tags">Cloud / IaC</span>
+                <a href="https://github.com/" target="_blank">GitHub</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/projects.js"></script>
+
+</body>
+
+</html>
