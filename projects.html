@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Articles | Diego Cañas</title>
+    <title>Artículos | Diego Cañas</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -13,9 +13,9 @@
     <!-- NAV -->
     <nav class="nav">
         <div class="nav-left">
-            <a href="index.html">Home</a>
-            <a href="cv.html">CV</a>
-            <a href="projects.html">Articles</a>
+            <a href="index.html" data-i18n="home">Inicio</a>
+            <a href="cv.html" data-i18n="cv">CV</a>
+            <a href="projects.html" data-i18n="projects">Artículos</a>
         </div>
 
         <div class="nav-right">
@@ -29,57 +29,59 @@
         <!-- HEADER -->
         <section class="hero">
 
-            <p class="kicker">Engineering Articles</p>
+            <p class="kicker" data-i18n="articles_kicker">Artículos Tech</p>
 
-            <h1 class="headline">
-                Deep dives into DevOps, cloud architecture and production systems.
+            <h1 class="headline" data-i18n="articles_headline">
+                Análisis de problemas o situaciones reales en entornos productivos.
             </h1>
 
-            <p class="subheadline">
-                Real engineering problems, solutions and architectural decisions from production environments.
+            <p class="subheadline" data-i18n="articles_subheadline">
+                Problemas reales de ingeniería, soluciones y decisiones de arquitectura en entornos productivos.
             </p>
 
         </section>
 
         <!-- FILTERS -->
         <div class="filters">
-            <button onclick="filterArticles('all')">All</button>
+            <button onclick="filterArticles('all')" data-i18n="filter_all">Todos</button>
             <button onclick="filterArticles('kubernetes')">Kubernetes</button>
             <button onclick="filterArticles('dr')">Disaster Recovery</button>
             <button onclick="filterArticles('cloud')">Cloud</button>
             <button onclick="filterArticles('ci')">CI/CD</button>
+            <button onclick="filterArticles('docker')">Docker</button>
         </div>
 
         <!-- ARTICLES -->
         <div class="article-grid">
 
             <div class="article kubernetes ci">
-                <h2>CI/CD Platform on Kubernetes</h2>
-                <p class="meta">Kubernetes · CI/CD · Jenkins · ArgoCD</p>
-                <p class="excerpt">Design and implementation of a unified deployment platform.</p>
-                <a href="articles/ci-cd-kubernetes.html" class="read-more">Read more →</a>
+                <h2 data-i18n="article_1_title">Plataforma CI/CD en Kubernetes</h2>
+                <p class="meta" data-i18n="article_1_meta">Kubernetes · CI/CD · Jenkins · ArgoCD</p>
+                <p class="excerpt" data-i18n="article_1_excerpt">Diseño e implementación de una plataforma unificada de
+                    despliegue.</p>
+                <a href="articles/ci-cd-kubernetes.html" class="read-more" data-i18n="read_more">Leer más →</a>
             </div>
 
             <div class="article dr cloud">
-                <h2>Disaster Recovery Strategy</h2>
-                <p class="meta">GCP · AWS · HA · Backup</p>
-                <p class="excerpt">Design of a production-ready DR strategy with automation.</p>
-                <a href="articles/dr-strategy.html" class="read-more">Read more →</a>
+                <h2 data-i18n="article_2_title">Estrategia de Disaster Recovery</h2>
+                <p class="meta" data-i18n="article_2_meta">GCP · AWS · HA · Backup</p>
+                <p class="excerpt" data-i18n="article_2_excerpt">Diseño de una estrategia DR en producción con
+                    automatización.</p>
+                <a href="articles/dr-strategy.html" class="read-more" data-i18n="read_more">Leer más →</a>
             </div>
 
-            <div class="article cloud">
-                <h2>Docker Image Optimization</h2>
-                <p class="meta">Docker · CI/CD · Optimization</p>
-                <p class="excerpt">Reducing image size and improving CI/CD performance.</p>
-                <a href="articles/docker-optimization.html" class="read-more">Read more →</a>
+            <div class="article docker">
+                <h2 data-i18n="article_3_title">Optimización de imágenes Docker</h2>
+                <p class="meta" data-i18n="article_3_meta">Docker · CI/CD · Optimización</p>
+                <p class="excerpt" data-i18n="article_3_excerpt">Reducción del tamaño de imágenes y mejora del
+                    rendimiento CI/CD.</p>
+                <a href="articles/docker-optimization.html" class="read-more" data-i18n="read_more">Leer más →</a>
             </div>
 
         </div>
 
-    </div>
-
-    <script src="assets/js/i18n.js"></script>
-    <script src="assets/js/theme.js"></script>
+        <script src="assets/js/i18n.js"></script>
+        <script src="assets/js/theme.js"></script>
 
 </body>
 

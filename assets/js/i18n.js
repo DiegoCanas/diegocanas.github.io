@@ -61,7 +61,26 @@ const translations = {
         ite_1: "Desarrollo de pipelines de CI/CD con Jenkins.",
         ite_2: "Stack base de Docker, Helm, Kubernetes y Nexus como repositorio de artefactos.",
         ite_3: "Monitorización con Loki, Promtail, Prometheus y Grafana.",
-        ite_4: "Trabajo con el lenguaje Python y bash en el desarrollo de scripts de automatización."
+        ite_4: "Trabajo con el lenguaje Python y bash en el desarrollo de scripts de automatización.",
+
+        articles_kicker: "Artículos Tech",
+        articles_headline: "Enfocado en problemas y situaciones reales en entornos productivos.",
+        articles_subheadline: "Problemas reales de ingeniería, soluciones y decisiones de arquitectura en entornos productivos.",
+        filter_all: "Todos",
+
+        article_1_title: "Plataforma CI/CD en Kubernetes",
+        article_1_meta: "Kubernetes · CI/CD · Jenkins · ArgoCD",
+        article_1_excerpt: "Diseño e implementación de una plataforma unificada de despliegue.",
+
+        article_2_title: "Estrategia de Disaster Recovery",
+        article_2_meta: "GCP · AWS · HA · Backup",
+        article_2_excerpt: "Diseño de una estrategia DR en producción con automatización.",
+
+        article_3_title: "Optimización de imágenes Docker",
+        article_3_meta: "Docker · CI/CD · Optimización",
+        article_3_excerpt: "Reducción del tamaño de imágenes y mejora del rendimiento CI/CD.",
+
+        read_more: "Leer más →",
     },
 
     en: {
@@ -121,6 +140,25 @@ const translations = {
         ite_2: "Core stack including Docker, Helm, Kubernetes and Nexus as artifact repository.",
         ite_3: "Monitoring with Loki, Promtail, Prometheus and Grafana.",
         ite_4: "Automation scripting using Python and Bash.",
+
+        articles_kicker: "Tech Articles",
+        articles_headline: "Focused on real-world issues in production environments.",
+        articles_subheadline: "Real engineering problems, solutions and architectural decisions from production environments.",
+        filter_all: "All",
+
+        article_1_title: "CI/CD Platform on Kubernetes",
+        article_1_meta: "Kubernetes · CI/CD · Jenkins · ArgoCD",
+        article_1_excerpt: "Design and implementation of a unified deployment platform.",
+
+        article_2_title: "Disaster Recovery Strategy",
+        article_2_meta: "GCP · AWS · HA · Backup",
+        article_2_excerpt: "Production-grade DR strategy with automation.",
+
+        article_3_title: "Docker Image Optimization",
+        article_3_meta: "Docker · CI/CD · Optimization",
+        article_3_excerpt: "Reducing image size and improving CI/CD performance.",
+
+        read_more: "Read more →",
     }
 };
 
