@@ -9,6 +9,7 @@ const translations = {
         kicker: "Cloud/On-Prem · CI/CD · Infrastructure as Code · SRE",
         headline: "“Fast flow, continuous feedback, reliable systems”",
         subheadline: "Diseño y automatizo el ciclo de vida del software en producción, cubriendo infraestructura, despliegue y observabilidad. El objetivo es construir sistemas fiables, repetibles y eficientes que reduzcan la carga operativa y aumenten la estabilidad.",
+        location: "Valencia, España.",
 
         view_cv: "Ver CV",
         view_projects: "Ver Artículos",
@@ -93,6 +94,7 @@ const translations = {
         kicker: "Cloud/On-Prem · CI/CD · Infrastructure as Code · SRE",
         headline: "“Fast flow, continuous feedback, reliable systems”",
         subheadline: "Design and automate the software lifecycle in production, covering infrastructure, deployment, and observability. The goal is to build reliable, repeatable, and efficient systems that reduce operational overhead and improve stability.",
+        location: "Valencia, Spain.",
 
         view_cv: "View Resume",
         view_projects: "View Articles",
