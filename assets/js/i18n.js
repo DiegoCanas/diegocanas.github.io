@@ -6,9 +6,9 @@ const translations = {
         projects: "Artículos",
 
         // ================= HOME =================
-        kicker: "DevOps Engineer · Cloud · Platform Engineering",
-        headline: "Construyo infraestructuras escalables y sistemas de automatización.",
-        subheadline: "Ingeniero DevOps enfocado en Kubernetes, CI/CD, cloud y automatización de infraestructura. Diseño sistemas escalables, auto-recuperables y optimizados en coste.",
+        kicker: "Cloud/On-Prem · CI/CD · Infrastructure as Code · SRE",
+        headline: "“Fast flow, continuous feedback, reliable systems”",
+        subheadline: "Diseño y automatizo el ciclo de vida del software en producción, cubriendo infraestructura, despliegue y observabilidad. El objetivo es construir sistemas fiables, repetibles y eficientes que reduzcan la carga operativa y aumenten la estabilidad.",
 
         view_cv: "Ver CV",
         view_projects: "Ver Artículos",
@@ -18,7 +18,7 @@ const translations = {
         iac_title: "Infrastructure as Code",
         obs_title: "Observabilidad",
 
-        trust_text: "Experiencia en entornos enterprise con más de 1000 usuarios, arquitecturas multi-cloud y sistemas críticos en producción.",
+        trust_text: "Experiencia en entornos productivos tanto de startups como de empresas consolidadas, arquitecturas multi-cloud y sistemas críticos en producción.",
 
         // ================= CV =================
         tech_info: "Información Técnica",
@@ -71,9 +71,9 @@ const translations = {
         projects: "Articles",
 
         // ================= HOME =================
-        kicker: "DevOps Engineer · Cloud · Platform Engineering",
-        headline: "I build scalable infrastructure and automation systems.",
-        subheadline: "DevOps Engineer focused on Kubernetes, CI/CD, cloud platforms and infrastructure automation. I design systems that scale, self-heal and reduce operational cost.",
+        kicker: "Cloud/On-Prem · CI/CD · Infrastructure as Code · SRE",
+        headline: "“Fast flow, continuous feedback, reliable systems”",
+        subheadline: "Design and automate the software lifecycle in production, covering infrastructure, deployment, and observability. The goal is to build reliable, repeatable, and efficient systems that reduce operational overhead and improve stability.",
 
         view_cv: "View Resume",
         view_projects: "View Articles",
@@ -83,7 +83,7 @@ const translations = {
         iac_title: "Infrastructure as Code",
         obs_title: "Observability",
 
-        trust_text: "Experience in enterprise environments with 1000+ users, multi-cloud architectures and production-critical systems.",
+        trust_text: "Experience in production environments across both startups and established enterprises, working with multi-cloud architectures and mission-critical production systems.",
 
         // NYMIZ
         nymiz_summary: "Transition from an early-stage DevOps environment contributing to improvements in monitoring, continuous delivery and deployment, and infrastructure.",
